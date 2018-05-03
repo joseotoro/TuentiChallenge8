@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><canvas width="400" height="300" id="canvas" style="display:block; margin:1em auto; border:3px solid #FFFFFF; outline:1px solid #808080"></canvas>
+<form action="#" method="get">
+  <table style="display:table; margin-left:auto; margin-right:auto" class="noborder">
+    <tbody>
+      <tr>
+        <td><label>Select image:</label></td>
+        <td>
+          <select id="image-select">
+            <option value="">(Loading&hellip;)</option>
+          </select>
+          <a href="#" id="image-attribution"></a>, <abbr title="Creative Commons">CC</abbr> license</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="button" value="Shuffle" id="shuffle-button"/>
+          <input type="button" value="Unshred" id="anneal-button"/>
+          <input type="button" value="Stop" id="stop-button"/>
+        </td>
+      </tr>
+      <tr>
+        <td>Iterations:</td>
+        <td id="current-iterations"></td>
+      </tr>
+    </tbody>
+  </table>
+</form></p>
+
+    <script src="unshredder.js"></script>    
+    
+
+  </body>
+</html>
+
